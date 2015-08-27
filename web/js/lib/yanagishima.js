@@ -681,3 +681,8 @@ var shortErrorType = (function(errorType) {
     }
     return errorType;
 });
+
+var new_tsv_download = (function() {
+  handle_execute();  
+  tsv_download();
+});
